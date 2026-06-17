@@ -10,7 +10,8 @@ uses to take a new customer from "just signed up" to "actively using the product
 tracks where each customer is in onboarding and nudges the ones who stall with email
 reminders, so fewer new customers go cold before they reach first value.
 
-**Working title (provisional):** Onboardly
+**Name:** FirstMile — named for the customer's "first mile," the stretch from signup to
+first value where activation is won or lost.
 
 ## Who it's for
 
