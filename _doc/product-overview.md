@@ -1,0 +1,1 @@
+Build an MVP for my startup: a customer onboarding app with user login, dashboard, customer records, and email reminders. Show me the blueprint first, then deploy it live.
