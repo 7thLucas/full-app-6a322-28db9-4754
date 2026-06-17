@@ -64,6 +64,7 @@ multi-team permissions, analytics dashboards, integrations. Candidates for later
 
 ## Open assumptions (to confirm with the founder)
 
-- Product name and branding (working title "Onboardly" is provisional).
+- Visual branding (logo, color palette) — indigo/amber is a working palette; the name
+  "FirstMile" is set.
 - Team size and weekly new-customer volume (needed to ground the North Star projection).
 - Whether reminders are manually sent, scheduled, or both in v1.
