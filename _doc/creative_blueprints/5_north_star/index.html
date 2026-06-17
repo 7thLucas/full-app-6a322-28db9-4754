@@ -1,0 +1,52 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col w-full h-full p-12">
+    <div class="flex items-center justify-between">
+      <div>
+        <span class="text-xs font-semibold tracking-widest uppercase" style="color:#4338ca;">North Star</span>
+        <h2 class="mt-2 font-extrabold tracking-tight" style="color:#0f172a; font-size:clamp(1.7rem,3.6vw,2.6rem);">Weekly Verified Operations</h2>
+      </div>
+      <span class="px-3 py-1.5 rounded-full text-xs font-bold" style="background:#fff7ed; color:#9a3412; border:1px solid #fed7aa;">Projected impact — based on your inputs</span>
+    </div>
+
+    <!-- The verified operations -->
+    <div class="mt-6 flex flex-wrap gap-3">
+      <span class="px-4 py-2 rounded-xl text-sm font-semibold" style="background:#eef2ff; color:#4338ca; border:1px solid #c7d2fe;">Operation: Onboarding reminder sent</span>
+      <span class="px-4 py-2 rounded-xl text-sm font-semibold" style="background:#eef2ff; color:#4338ca; border:1px solid #c7d2fe;">Operation: Customer onboarding record advanced</span>
+    </div>
+    <p class="mt-2 text-sm" style="color:#64748b;">Logins, clicks, and page views are not operations — only a reminder actually sent or a customer actually moved forward.</p>
+
+    <div class="grid gap-5 mt-6" style="grid-template-columns:1fr 1fr;">
+      <!-- WVO formula -->
+      <div class="rounded-2xl p-6" style="background:#f8fafc; border:1px solid #e2e8f0;">
+        <div class="text-xs font-bold tracking-widest uppercase" style="color:#4338ca;">Weekly Verified Operations</div>
+        <div class="mt-3 flex flex-wrap items-center gap-2 text-sm" style="color:#334155;">
+          <span class="px-2 py-1 rounded-md font-semibold" style="background:#fef3c7; color:#92400e;">20 customers onboarding / wk*</span>
+          <span>×</span>
+          <span class="px-2 py-1 rounded-md font-semibold" style="background:#fef3c7; color:#92400e;">2 reminders each*</span>
+          <span>=</span>
+        </div>
+        <div class="mt-3 font-extrabold" style="color:#0f172a; font-size:2.4rem;">40 ops / week</div>
+        <div class="mt-1 text-sm" style="color:#64748b;">≈ 2,080 verified operations / year</div>
+      </div>
+
+      <!-- Value formula -->
+      <div class="rounded-2xl p-6" style="background:#0f172a;">
+        <div class="text-xs font-bold tracking-widest uppercase" style="color:#a5b4fc;">Projected value</div>
+        <div class="mt-3 flex flex-wrap items-center gap-2 text-sm" style="color:#e2e8f0;">
+          <span>40 ops/wk</span><span>×</span>
+          <span class="px-2 py-1 rounded-md font-semibold" style="background:#fef3c7; color:#92400e;">10 min saved/op*</span>
+          <span>×</span>
+          <span class="px-2 py-1 rounded-md font-semibold" style="background:#fef3c7; color:#92400e;">$45/hr loaded cost*</span>
+        </div>
+        <div class="mt-3 font-extrabold" style="color:#ffffff; font-size:2.4rem;">$300 / week</div>
+        <div class="mt-1 text-sm" style="color:#cbd5e1;">= $15,600 / year in recovered team time</div>
+      </div>
+    </div>
+
+    <p class="mt-auto pt-6 text-sm" style="color:#64748b; max-width:78ch;">
+      <span style="color:#92400e; font-weight:600;">*</span> Amber chips are assumptions — adjust them to your real numbers.
+      This is a projection from your own inputs, not a measured result or a promise. The startup's actual
+      team size and weekly new-customer volume aren't set yet; plug them in to ground these figures.
+    </p>
+  </div>
+</section>
